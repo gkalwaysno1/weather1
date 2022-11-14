@@ -115,7 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                 ),
                 Text(
-                  temp != null ? temp.toString() + "\u00B0 F" : "Loading....",
+                  temp != null ? temp.toString() + "\u00B0 K" : "Loading....",
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 35.6,
@@ -163,8 +163,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       trailing: Text(description != null ? description.toString() : "Loading.."),
                     ),
                     ListTile(
-                      title: Text("Temperature (In Farhenheit)"),
-                      trailing: Text(temp != null ? temp.toString() + "\u00B0 F" : "Loading.."),
+                      title: Text("Temperature (In Kelvin)"),
+                      trailing: Text(temp != null ? temp.toString() + "\u00B0 K" : "Loading.."),
                     ),
                     ListTile(
                       title: Text("Wind Speed (In knots)"),
